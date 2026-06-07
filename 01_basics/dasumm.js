@@ -13,16 +13,33 @@
     /*      ARRAY, OBJECTS, FUNCTIONS */
 
 
-    const heroes = ["shaktiman","nagrakj", "doga"];
-    let myObj = {
-        name = "PINAK",
-        age : 22,
+//     const heroes = ["shaktiman","nagrakj", "doga"];
+//     let myObj = {
+//         name = "PINAK",
+//         age : 22,
 
-    }
+//     }
 
 
-const myFunction = function(){
-console.log("HELLOOO WORLDDD");
-}
+// const myFunction = function(){
+// console.log("HELLOOO WORLDDD");
+// }
 
-consol.log(typeof myFunction);
+// consol.log(typeof myFunction);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+// stack (primitive), heap (non-primitive)
+
+let myYoutubename = "_PIINAK"
+
+let anothername = myYoutubename
+anothername = "FOTOFILE"
+
+console.log(myYoutubename);
+console.log(anothername);
